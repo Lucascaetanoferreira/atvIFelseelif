@@ -1,0 +1,14 @@
+#9. Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a
+#prestação for maior que 20% do salário imprima: “Empréstimo não concedido”, caso
+#contrário imprima: “Empréstimo concedido”
+
+trabalhador=float(input("qual o salario do trabalhador"))
+anos=float(input("quantos anos de emprestimos"))
+
+prestação= trabalhador/(anos*12)
+minimo= trabalhador * 20/100
+
+if prestação <= minimo:
+    print("emprestimo não concedido")
+else:
+    print("emprestimo concedido")
