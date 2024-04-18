@@ -1,0 +1,12 @@
+#7. Faça um programa que receba dois números e mostre o maior. Se por acaso, os dois
+#números forem iguais, imprima a mensagem “Números iguais”.
+
+numero1=int(input("informe um numero"))
+numero2=int(input("iforme um numero"))
+
+if numero1 >numero2:
+    print("Maior numero")
+elif numero2 > numero1:
+    print("Maior numero")
+else:
+    print("Numeros são iguais")
