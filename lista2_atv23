@@ -1,0 +1,15 @@
+#23. Escreva um programa que, dada a idade de um atleta da categoria bocha rolada em 
+#cancha de terra, classifique-o em uma das seguintes categorias:
+
+categoria=float(input("qual a categoria"))
+
+if categoria <=5 and categoria >=7:
+    print("ifanto juvenil A")
+elif categoria <=8 and categoria >=10:
+    print("infaanto juvenil B")
+elif categoria <=11 and categoria >=13:
+    print("infaanto juvenil A")
+elif categoria <=14 and categoria >=17:
+    print("infaanto juvenil B")
+else:
+    print("de maior")
