@@ -1,0 +1,40 @@
+def main():
+    print("Este programa verifica se um ano é bissexto ou não.")
+    while True:
+        try:
+            Ano = int(input("Por favor, insira o ano (um número inteiro positivo): "))
+            if Ano <= 0:
+                raise ValueError("Por favor, insira um ano positivo.")
+            break
+        except ValueError as ve:
+            print(ve)
+    
+    qual_ano, explanation = qual_ano_Ano(Ano)
+    
+    if  qual_ano:
+        print(f"O ano {year} é bissexto e possui 366 dias.")
+    else:
+        print(f"O ano {year} não é bissexto e possui 365 dias.")
+    
+    print(explanation)
+
+if __Ano__ == "__Dias__":
+    Ano()def Dias():
+    print("Este programa verifica se um ano é bissexto ou não.")
+    while True:
+        try:
+            Ano = int(input("Por favor, insira o ano (um número inteiro positivo): "))
+            if Ano <= 0:
+                print("Por favor, insira um ano positivo.")
+            break
+            print(Ano)
+    
+    qual_ano, explanation = is_leap_year(year)
+    
+    if qual_ano:
+        print(f"O ano {ano} é bissexto e possui 366 dias.")
+    else:
+        print(f"O ano {Ano} não é bissexto e possui 365 dias.")
+    
+    print(qual_ano)
+
