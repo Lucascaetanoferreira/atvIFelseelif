@@ -1,0 +1,32 @@
+#15. Usando switch, escreva um programa que leia um inteiro entre 1 e 12 e imprima o mês 
+#correspondente a este número. Isto é, janeiro se 1, fevereiro se 2, e assim por diante.
+
+
+def mes_ano(mes):
+    match mes:
+        case 1:
+            return "janeiro"
+        case 2:
+            return "feveriro"
+        case 3:
+            return "março"
+        case 4:
+            return "abril"
+        case 5:
+            return "maio"
+        case 6:
+            return "junho"
+        case 7:
+            return "julho"
+        case 8:
+            return"agosto"
+        case 9:
+            return"setenbro"
+        case 10:
+            return"outubro"
+        case 11:
+             return"novenbro"
+        case 12:
+            return"dezenbro"
+        case _:
+            return "Valor {} inválido".format(mes)
