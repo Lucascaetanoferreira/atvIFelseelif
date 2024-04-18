@@ -1,0 +1,27 @@
+#17. Faça um programa que mostre ao usuário um menu com 4 opções de operações 
+#matemáticas (as básicas, por exemplo). O usuário escolhe uma das opções e o seu 
+#programa então pede dois valores numéricos e realiza a operação, mostrando o 
+#resultado e saindo.
+
+usuario=int(input("escolha uma opção"))
+
+def calculos(usuario):
+ 
+    match usuario:
+        case 1:
+         usuario=int(input("qual o numero"))
+         soma=usuario+usuario
+         print("o resultado:{}".format(soma,usuario))
+        case 2:
+          usuario=int(input("qual o numero"))
+          subtração=usuario-usuario
+          print("o resultado é:{}".format(subtração,usuario))
+        case 3:
+           usuario=int(input("qual o numero"))
+           multiplicação=usuario*usuario
+           print("o resultado é:{}".format(multiplicação,usuario))
+        case 4:
+           usuario=int(input("qual o numero"))
+           divisão=usuario/usuario
+           print("o resultado é:{}".format(divisão,usuario))
+            
