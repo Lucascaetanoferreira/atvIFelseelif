@@ -1,0 +1,13 @@
+#10. Escreva um programa que leia um número inteiro maior do que zera e devolva, na
+#tela, a soma de todos os seus algarismos. Por exemplo, ao número 251 corresponderá
+#o valor 8 (2 + 5 + 1). Se o número lido não for maior do que zero, o programa
+#terminará com a mensagem “Número inválido”.
+
+usuario1=int(input("digite um numero"))
+
+soma=usuario1 + usuario1
+print("o resultado é:{}".format(soma,usuario1))
+if usuario1 >=0:
+    print("numero invalido")
+else:
+    print("numero não invalido")
