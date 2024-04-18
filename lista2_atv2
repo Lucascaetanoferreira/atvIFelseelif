@@ -1,0 +1,12 @@
+#2. Leia um número fornecido pelo usuário. Se esse numero for positivo, calcule a raiz
+#quadrada do número. Se o número for negativo, mostre uma mensagem dizendo que o número é inválido.
+
+numero=float(input("digite um numero"))
+
+if numero >=0:
+    Raiz_quadrada =match.sqr(numero)
+    print("a raiz quadrada de ?")
+else:
+    print("o numero é invalido")
+
+print("o resultado é:{}".format(numero,Raiz_quadrada))
