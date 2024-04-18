@@ -1,0 +1,9 @@
+#24. A tarifas de certo parque de estacionamento são as seguintes:
+
+hora=int(input("qual a hora"))
+if hora <=1 and hora >=2:
+     reais=1,00
+elif hora <=3 and hora >=4:
+    reais=1,40
+elif hora <=5:
+     reais=2,00
