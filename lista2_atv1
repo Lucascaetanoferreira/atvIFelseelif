@@ -1,0 +1,12 @@
+#1. Faça um programa que receba dois números e mostra qual deles é o maior
+
+numero1=float(input("digite um numero "))
+
+numero2=float(input("digite outro numero "))
+
+if numero1<=numero2:
+    print("é maior")
+else:
+    print("é menor")
+
+print("o maior numero é {}".format(numero1,numero2))
