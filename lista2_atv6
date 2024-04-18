@@ -1,0 +1,10 @@
+#6. Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,
+#assim como a diferença existente entre ambos.
+
+Numero1=int(input("digite um numero"))
+Numero2=int(input("digite um numero"))
+
+if Numero1 >= Numero2:
+    print("o numero maior ")
+else:
+    print("menor")
